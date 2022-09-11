@@ -62,6 +62,7 @@ export function MainContent() {
               <h1>{prod.name}</h1>
               <p>R$ <span>{prod.price}</span></p>
             </div>
+
           )
         })}
 

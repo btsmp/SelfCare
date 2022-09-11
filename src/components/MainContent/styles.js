@@ -14,14 +14,15 @@ export const Container = styled.main`
     > span:nth-child(1) {
       text-transform: uppercase;
     }
-    
   }
 
-  .products{
+  .products {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 28px 33px;
     place-content: center;
+    align-items: center;
+    place-items: center;
     gap: 20px 90px;
   } 
 
@@ -63,5 +64,60 @@ export const Container = styled.main`
     > img {
       height: 126px;
     }
+  }
+
+
+  @media (min-width: 1000px) {
+    .bar{
+      padding: 33px 70px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+
+      > span:nth-child(2){
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .products{
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 57px 71px;
+      gap: 65px 120px
+    }
+
+    .prod{
+      gap:10px
+
+      > h1 {
+        font-size: 22px;
+        line-height: 26px;
+      }
+      
+      > p {
+        font-style: normal;
+        font-weight: 600;
+
+
+        > span{
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .img-container {
+      height: 250px;
+      width: 250px;
+
+      > img {
+      height: 250px;
+    }
+    }
+
   }
 `

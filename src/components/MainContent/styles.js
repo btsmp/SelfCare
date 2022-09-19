@@ -62,12 +62,12 @@ export const Container = styled.main`
     overflow: hidden;
 
     > img {
-      height: 126px;
+      width: 100%;
     }
   }
 
 
-  @media (min-width: 1000px) {
+  @media (min-width: 900px) {
     .bar{
       padding: 33px 70px;
       font-style: normal;

@@ -65,7 +65,7 @@ color: #161616;
     }
   }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -120,7 +120,7 @@ export const Container = styled.footer`
   }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 900px){
   .footer {
     padding: 43px 77px;
   }
@@ -139,7 +139,7 @@ export const Container = styled.footer`
     gap: 24px;
 
     > svg {
-      height: 43px;
+      height: 30px;
       width: auto;
     }
   }

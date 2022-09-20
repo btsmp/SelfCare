@@ -60,9 +60,10 @@ export const Container = styled.main`
     height: 126px;
     width: 126px;
     overflow: hidden;
+    border-radius: 2px;
 
     > img {
-      width: 100%;
+      height: 170px;
     }
   }
 
@@ -115,7 +116,9 @@ export const Container = styled.main`
       width: 250px;
 
       > img {
-      height: 250px;
+      height: 300px;
+      width: auto;
+
     }
     }
 
